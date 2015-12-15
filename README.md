@@ -16,6 +16,7 @@ I recommend using the latest version of the Anaconda python3 distribution
 
 ##future
 
+- Comments in code
 - Currently headers aren't stripped of whitespace before being compared to config, it would be nice to fix this
 - More datatypes (ex datetime)
 - Seperate out loading, processing, and storing into seperate classes for better modularity
