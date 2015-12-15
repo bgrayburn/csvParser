@@ -25,6 +25,7 @@ class csvParser:
         if (auto==True):
             self.loadData()
             self.processData()
+            self.storeData()
     
     def loadConfig(self,path):
         try:
