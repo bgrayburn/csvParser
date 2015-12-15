@@ -1,3 +1,9 @@
+#A CSV Parser taking a json config file to describe processing steps to data before
+#storing to an sqlite db
+#Author:Brian Rayburn (bgrayburn@gmail.com
+#See end of file for example usage or checkout the ipython notebook:
+#  https://github.com/bgrayburn/csvParser/blob/master/csvParser.ipynb
+
 import pandas
 from sqlalchemy import create_engine
 import json
