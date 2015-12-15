@@ -5,7 +5,7 @@ The steps set in the `processing_steps` part of the config file are run in order
 Running this project will create a sqlite db in the root directory called `testDb.db`.
 
 ##ipython notebook
-Also include is an ipython notebook which can also be viewed [here](csvParser.ipynb)
+Also included is an ipython notebook which can also be viewed [here](csvParser.ipynb)
 
 ##dependencies
 
