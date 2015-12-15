@@ -37,7 +37,6 @@ class csvParser:
             return False
         
     def loadData(self):
-        #TODO: dtypes and select cols
         try:
             filepath = self.config['filepath']
             print("loading data from "+filepath)
