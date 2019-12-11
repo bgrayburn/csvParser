@@ -4,17 +4,17 @@
 The steps set in the `processing_steps` part of the config file are run in order. In all cases the values of each step in `processing_steps` can either be a list or a single target (ex. 'col1' or ['col1','col2']).
 Running this project will create a sqlite db in the root directory called `testDb.db`.
 
-##ipython notebook
+## ipython notebook
 Also included is an ipython notebook which can also be viewed [here](csvParser.ipynb)
 
-##dependencies
+## dependencies
 
 I recommend using the latest version of the Anaconda python3 distribution
 - pandas
 - sqlalchemy
 - json
 
-##future
+## future
 
 - Comments in code
 - Currently headers aren't stripped of whitespace before being compared to config, it would be nice to fix this
